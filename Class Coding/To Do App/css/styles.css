@@ -1,0 +1,46 @@
+.pink-background{
+    background-color: rgb(225, 188, 252);
+}
+
+.display-box{
+    background-color: white;
+    width: 40vw;
+    height: 50vh;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 25vh;
+}
+
+.button-font{
+    color: white;
+    font-weight: bold;
+}
+
+.add-button{
+    background-color: rgb(137,164,254);
+    width: 70px;
+    height: 40px;
+}
+.edit-button{
+    background-color: rgb(85,174,145);
+    width: 70px;
+    height: 40px;
+    margin-left: 45%;
+}
+
+.delete-button{
+    background-color: rgb(230,141,137);
+    width: 70px;
+    height: 40px;
+    margin-left: 3%;
+}
+
+.header-title{
+    color: rgb(86,89,182);
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+.notes{
+    display:inline-block;
+}

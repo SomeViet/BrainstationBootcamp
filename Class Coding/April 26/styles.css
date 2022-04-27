@@ -1,0 +1,46 @@
+.inch-box{
+    background-color: aqua;
+    width: 1in;
+    height: 1in;
+}
+
+.pixel-box{
+    background-color: greenyellow;
+    width: 96px;
+    height: 96px;
+}
+
+.em-box{
+    font-wize: 1.5em;
+}
+
+p, ul{
+    font-size: 1em;
+}
+
+li{
+    font-size: 0.5em;
+}
+
+.rem-box{
+    font-size: 1.5rem;
+}
+
+.rem-box p, ul{
+    font-size: 1rem;
+}
+
+.rem-box li{
+    font-size: 0.3rem;
+}
+  
+.percentage-box-1{
+    background-color: rgb(255, 0, 255);
+    width: 99vw;
+    float: left;
+}
+
+.percentage-box-2{
+    background-color: brown;
+    width: 50vw;
+}
