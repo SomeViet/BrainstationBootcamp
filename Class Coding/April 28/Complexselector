@@ -1,0 +1,7 @@
+.no-flex-zone > div
+
+div .fun-time
+
+.jumbotron span
+
+div > p,  div > span.like-a-p 

@@ -1,0 +1,24 @@
+h2 {
+    font-size: 2rem;
+    font-family: cursive;
+}
+
+h1 {
+    border: 4px solid #d2691e;
+}
+
+ul {
+    background-color: beige;
+}
+
+ul.cold-drink-list {
+    background-color: lightsalmon;
+}
+
+li {
+    font-weight: bold;
+}
+
+li.special {
+    font-weight: normal;
+}
