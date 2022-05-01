@@ -1,0 +1,22 @@
+*{
+    box-sizing: content-box;
+}
+
+.parent {
+    background: rgb(69, 211, 3);
+    width: 20rem;
+    height: 500px;
+    padding: 0px;
+    border: 5px solid red;
+    margin: 20px;
+}
+
+.child {
+    background: orange;
+    box-sizing: border-box;
+    width: 100%;
+    height: 50%;
+    padding: 20px;
+    border: 20px solid pink;
+    margin-top: 25%;
+}

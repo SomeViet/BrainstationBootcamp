@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100vw;
+    background-color: lightskyblue;
+    padding: 2rem 1rem;
+    border-style: solid;
+    border-color: springgreen;
+    border-width: 6px 0px;
+    margin-bottom: 2rem;
+}
+
+.column {
+    display: inline-block;
+    width: 30vw;
+    height: 400px;
+    margin: 0rem 1rem;
+    border: 3px solid black;
+    background-color: coral;
+    padding: 1rem 1.2rem;
+    vertical-align: text-top;
+}
+
+.column1{
+    background-color: coral;
+}
+
+.column2{
+    background-color: lightyellow;
+}
+
+.column3{
+    background-color: honeydew;
+}

@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+
+.box {
+    background: skyblue;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    border: 20px solid red;
+    margin: 20px;
+}
+
+.box:nth-child(2) {
+    background: orange;
+    width: 160px;
+    height: 160px;
+    padding: 20px;
+    border: 20px solid pink;
+    margin-top: 10px;
+}
