@@ -1,3 +1,5 @@
+/*NAV TAGS*/
+
 .beanlogo {
     min-width: 50px;
     max-width: 120px;
@@ -11,7 +13,7 @@
     background-size: cover;
 }
 
-.circlemenu {
+.circlemenusquare {
     font-size: 33px;
     color: white;
     background-color: #393939;
@@ -26,6 +28,17 @@
     top: 0%;
     left: 0%;
 }
+
+header > h2 > a {
+    text-decoration: none;
+    color: #393939;
+}
+
+header > nav > ul > li {
+    list-style: none;
+}
+
+/* DRINKS NAVIGATOR */
 
 .drinksnav {
     min-width: 100%;
@@ -46,6 +59,9 @@
     color: white;
 }
 
+
+/*HEADER TAGS*/
+
 h2 {
     font-size: 60px;
     font-weight: 300;
@@ -61,9 +77,20 @@ h3 {
     text-align: center;
 }
 
-h3:nth-last-child(1) {
+
+/* PARAGRAPH TAGS */
+
+p.description {
     font-size: 18px;
     font-weight: 400;
     font-style: italic;
-    background-color: red;
+    width:30%;
+    text-align: center;
+}
+
+p.price {
+    font-size: 18px;
+    font-weight: 400;
+    color:#5bacc3;
+    text-align: center;
 }
