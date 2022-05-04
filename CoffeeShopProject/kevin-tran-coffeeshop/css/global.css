@@ -6,3 +6,8 @@ body {
 h2 {
     text-decoration: none;
 }
+
+.beanlogo {
+    min-width: 50px;
+    max-width: 120px;
+}
