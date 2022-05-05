@@ -1,3 +1,27 @@
-header {
-    background-color: #FFF0ED;
+
+.button--blue {
+    background-color: #5BACC3;
+    color: white;
+    font-size: 1.3125rem;
+    font-weight: 400;
+    border: 0px;
+}
+
+.product-image {
+    min-height: 15rem;
+    max-height: 34.375rem;
+}
+
+.discount-banner {
+    min-width: fit-content;
+    max-width: 90%;
+    background-color: #393939;
+    color: white;
+}
+
+.discount-text {
+    font-size: 2.8125rem;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 0px;
 }
