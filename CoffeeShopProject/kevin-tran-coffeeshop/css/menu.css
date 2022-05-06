@@ -11,8 +11,8 @@
 }
 
 .circlemenusquare {
-    min-width: 17.5rem;
-    max-width: 18.75rem;
+    min-width: 280px;
+    max-width: 300px;
     min-height: 11.25rem;
     max-height: 12.5rem;
     background-color: #393939;
@@ -46,9 +46,17 @@ header > nav > ul > li {
 
 /*HEADER TAGS*/
 
+
 main > h2 {
     text-align: center;
+    height: fit-content;
+    margin: 0px;
 }
+
+main > p{
+    margin: 0px;
+}
+
 
 main:nth-child(even) {
     background-color: #FFF0ED;
@@ -63,6 +71,11 @@ p.description {
     font-style: italic;
     width:30%;
     text-align: center;
+    margin: 20px auto;
+}
+
+.menusizing {
+    padding: 1.25rem;
 }
 
 

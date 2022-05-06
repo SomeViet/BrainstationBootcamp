@@ -3,6 +3,7 @@
 body {
     font-family: 'Open Sans';
     font-weight: 400;
+    margin: 0px;
 }
 
 h1, h2 {
@@ -62,6 +63,16 @@ p.price {
     color:#5bacc3;
 }
 
+/* Nav Bar */
 
+.navbar {
+    display: inline-block;
+}
 
+.zeromargin {
+    margin: 0px;
+}
 
+.zeromargin-bottom {
+    margin-bottom: 0px;
+}
