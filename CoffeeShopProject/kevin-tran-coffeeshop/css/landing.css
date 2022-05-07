@@ -8,8 +8,7 @@
 }
 
 .product-image {
-    min-height: 15rem;
-    max-height: 34.375rem;
+    height: 24.76767676vh;
 }
 
 .discount-banner {
@@ -24,4 +23,22 @@
     font-weight: 400;
     text-align: center;
     margin-top: 0px;
+}
+
+.card {
+    margin: 0 40px;
+    min-width: 330px;
+    max-width: 350px;
+    min-height: 440px;
+    max-height: 460px;
+    padding-top: 40px;
+    border: 10px;
+    box-shadow: 0 5px 9px -1px;
+    display: inline-block;
+    align-content: center;
+    text-align: center;
+}
+
+.group-card {
+    text-align: center;
 }

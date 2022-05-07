@@ -1,5 +1,9 @@
 /* Global Styling */
 
+:root {
+    font-size: 16px;
+}
+
 body {
     font-family: 'Open Sans';
     font-weight: 400;
@@ -21,6 +25,10 @@ p {
     font-weight: 400;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* Element Styling */
 
 .icon {
@@ -28,10 +36,7 @@ p {
     max-width: 7.5rem;
 }
 
-.nav-link-button {
-    font-size: 1.3125rem;
-    font-weight: 400;
-}
+
 
 .bg--nitro-pink {
     background-color: #FFF0ED;
@@ -41,10 +46,26 @@ p {
     font-weight: 700;
 }
 
-/* Font Styling */
+.blue {
+    color:#5bacc3;
+}
+
+.graphite {
+    color: #393939;
+}
+
+.white {
+    color: #FFF;
+}
+
+/* Alignments */
 
 .text-center {
     text-align: center;
+}
+
+.img-center {
+    align-content: center;
 }
 
 /*Targetted Styling*/
@@ -52,22 +73,26 @@ p {
 header > nav > ul > li {
     list-style: none;
     font-weight: 400;
-}
-
-header > h2 > a {
-    text-decoration: none;
-    color: #393939;
-}
-
-p.price {
-    color:#5bacc3;
+    font-size: 1.3125rem;
 }
 
 /* Nav Bar */
 
 .navbar {
     display: inline-block;
+    margin: auto 20px;
 }
+
+
+.navbar a:nth-child(3) {
+    color:#5bacc3;
+}
+
+.navbar ul {
+    padding: 0 0 20px 0;
+}
+
+/* Margin & Padding Control */
 
 .zeromargin {
     margin: 0px;
@@ -75,4 +100,12 @@ p.price {
 
 .zeromargin-bottom {
     margin-bottom: 0px;
+}
+
+.zeromargin-left {
+    margin-left: 0px;
+}
+
+.margin-left20{
+    margin-left: 20px;
 }

@@ -13,17 +13,17 @@
     <body>
         <header class="bg--nitro-pink">
             <a href="index.html">
-                <img src="assets/images/coffee-beans-logo-and-footer.svg" alt="coffee bean logo" class="icon">
+                <img src="assets/images/coffee-beans-logo-and-footer.svg" alt="coffee bean logo" class="icon margin-left20">
             </a>
-            <h2 class="nav-link-button">
-                <a href="#">nitro</a>
+            <h2 class="navbar zeromargin-left">
+                <a href="index.html" class="graphite">nitro</a>
             </h2>
     
-            <nav>
+            <nav class="navbar">
                 <ul>
-                    <li><a href="index.html">ABOUT</a></li>
-                    <li><a href="pages/menu.html">MENU</a></li>
-                    <li><a href="pages/menu.html">SHOP NOW</a></li>
+                    <li class="navbar"><a href="index.html" class="graphite">ABOUT</a></li>
+                    <li class="navbar"><a href="pages/menu.html" class="graphite">MENU</a></li>
+                    <li class="navbar"><a href="pages/menu.html" class="blue">SHOP NOW</a></li>
                 </ul>
             </nav>
         </header>       
@@ -38,26 +38,32 @@
         </main>
 
         <h2>Our Products</h2>
-                
-        <section>
-            <img src="assets/images/coffeebeans.png" alt="coffee beans" class="product-image">
-            <h3>Coffee Beans</h3>
-            <p class="price">$18.99</p>
-        </section>
+             
+            <div class="group-card">
+            <section class="card">
+                <img src="assets/images/coffeebeans.png" alt="coffee beans" class="product-image">
+                <h3 class="text-center">Coffee Beans</h3>
+                <p class="blue text-center">$18.99</p>
+            </section>
 
-        <section>
-            <img src="assets/images/coldbrew.png" alt="cold brew" class="product-image">
-            <h3>Cold Brew</h3>
-            <p class="price">$4.99</p>
-        </section>
+            <section class="card">
+                <img src="assets/images/coldbrew.png" alt="cold brew" class="product-image">
+                <h3 class="text-center">Cold Brew</h3>
+                <p class="blue text-center">$4.99</p>
+            </section>
 
-        <section>
-            <img src="assets/images/inhousebrew.png" alt="inhouse brew" class="product-image">
-            <h3>In-house Brew</h3>
-            <p class="price">$2.99</p>
-        </section>
+            <section class="card">
+                <img src="assets/images/inhousebrew.png" alt="inhouse brew" class="product-image">
+                <h3 class="text-center">In-house Brew</h3>
+                <p class="blue text-center">$2.99</p>
+            </section>
+            </div>
+
+            
         
+        <p>
         <button class="button--blue">VIEW ALL</button>
+        </p>
 
         <section class="discount-banner">
             <p class="discount-text">Get 20% off your first order with code: <span class="bold"> FirstNitro </span></p>
