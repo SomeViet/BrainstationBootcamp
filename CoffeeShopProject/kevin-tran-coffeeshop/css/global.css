@@ -1,5 +1,4 @@
 /* Global Styling */
-
 :root {
     font-size: 16px;
 }
@@ -32,14 +31,16 @@ a {
 /* Element Styling */
 
 .icon {
-    min-width: 3.125rem;
-    max-width: 7.5rem;
+    min-width: 3vw;
+    max-width: 6vw;
 }
-
-
 
 .bg--nitro-pink {
     background-color: #FFF0ED;
+}
+
+.bg--grey {
+    background-color: #F7F7F7;
 }
 
 .bold {
@@ -64,8 +65,12 @@ a {
     text-align: center;
 }
 
-.img-center {
-    align-content: center;
+.text-left {
+    text-align: left;
+}
+
+.inline-block {
+    display: inline-block;
 }
 
 /*Targetted Styling*/
@@ -80,16 +85,15 @@ header > nav > ul > li {
 
 .navbar {
     display: inline-block;
-    margin: auto 20px;
+    margin: 0 1.195vw;
 }
-
 
 .navbar a:nth-child(3) {
     color:#5bacc3;
 }
 
 .navbar ul {
-    padding: 0 0 20px 0;
+    padding: 0 0 1.25rem 0;
 }
 
 /* Margin & Padding Control */
@@ -107,5 +111,16 @@ header > nav > ul > li {
 }
 
 .margin-left20{
-    margin-left: 20px;
+    margin-left: 1.195vw;
+}
+
+.button-sizing {
+    padding: 1.25rem 2.4vw;
+}
+
+.padding-top40 {
+    padding-top: 2.5rem;
+}
+.padding-bottom40 {
+    padding-bottom: 2.5rem;
 }

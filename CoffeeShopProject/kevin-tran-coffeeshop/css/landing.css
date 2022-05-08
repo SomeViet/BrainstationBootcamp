@@ -7,8 +7,43 @@
     border: 0px;
 }
 
+.main-nitrocoffee {
+    margin-left: 5vw;
+    padding: 6.25rem 6vw;
+    width: 20vw;
+}
+
+.main-coffeehero {
+    vertical-align: top;
+    margin-left: 28vw;
+    padding: 3.75rem 0;
+}
+
+.card {
+    margin: 0 3vw;
+    min-width: 18.5vw;
+    max-width: 19.5vw;
+    min-height: 27.5rem;
+    max-height: 27.5rem;
+    padding-top: 2.5rem;
+    border: 10px;
+    box-shadow: 0 5px 9px -1px;
+    display: inline-block;
+    align-content: center;
+    text-align: center;
+    border-radius: 10px;
+}
+.main-product {
+    padding: 2.5rem 2.4vw;
+}
+
 .product-image {
     height: 24.76767676vh;
+}
+
+.main-discount {
+    background-color:white;
+    padding: 10rem 9.5vw;
 }
 
 .discount-banner {
@@ -16,6 +51,7 @@
     max-width: 90%;
     background-color: #393939;
     color: white;
+    padding: 2.5rem 3.75rem;
 }
 
 .discount-text {
@@ -25,20 +61,7 @@
     margin-top: 0px;
 }
 
-.card {
-    margin: 0 40px;
-    min-width: 330px;
-    max-width: 350px;
-    min-height: 440px;
-    max-height: 460px;
-    padding-top: 40px;
-    border: 10px;
-    box-shadow: 0 5px 9px -1px;
-    display: inline-block;
-    align-content: center;
-    text-align: center;
-}
-
-.group-card {
-    text-align: center;
+.footer {
+    margin: 0px 6vw;
+    vertical-align: top;
 }
