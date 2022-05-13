@@ -11,14 +11,14 @@
 }
 
 .circlemenusquare {
-    min-width: 280px;
-    max-width: 300px;
+    min-width: 18vw;
+    max-width: 19.9vw;
     min-height: 11.25rem;
     max-height: 12.5rem;
     background-color: #393939;
     color: white;
     text-align: center;
-    margin: 0px auto 0px auto;
+    margin: 0px auto;
 }
 
 header > nav > ul > li {
@@ -34,15 +34,23 @@ header > nav > ul > li {
     text-transform: uppercase;
 }
 
-.drinksnav ul li {
+.contentcenter {
+    text-align: center;
+    margin: 0px auto;
+    padding: 1.25rem 0;
+}
+
+.subnav {
+    display: inline-block;
     list-style-type: none;
     text-align: center;
 }
 
-.drinksnav ul li a  {
-    text-decoration: none;
-    color: white;
+.border--sideblue {
+    border-left: 4px solid #5BACC3;
+    padding: 0px 20px;
 }
+
 
 /*HEADER TAGS*/
 
@@ -57,7 +65,6 @@ main > p{
     margin: 0px;
 }
 
-
 main:nth-child(even) {
     background-color: #FFF0ED;
 }
@@ -71,7 +78,7 @@ p.description {
     font-style: italic;
     width:30%;
     text-align: center;
-    margin: 20px auto;
+    margin: 1.25rem auto;
 }
 
 .menusizing {
