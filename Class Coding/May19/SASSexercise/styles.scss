@@ -1,0 +1,76 @@
+/**
+Design Req 3 Variables?
+**/
+
+$primary-color: beige;
+$secondary-color: teal;
+$tertiary-color: lightsalmon;
+$success-color: rgb(127, 255, 212);
+$danger-color: #dc143c;
+$dark-color: black;
+
+@mixin daily-special {
+  font-weight: normal;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 14px;
+  font-family: cursive;
+}
+
+ul {
+  background-color: $primary-color;
+}
+
+h1 {
+  border: 4px solid $secondary-color;
+}
+
+li {
+  font-weight: bold;
+}
+
+/**~~**/
+
+.snack-list {
+  background-color: $tertiary-color;
+
+  li {
+    color: $secondary-color;
+  }
+}
+
+.cold-drink-list {
+  background-color: $success-color;
+}
+
+#cold-drink-special {
+  @include daily-special;
+}
+
+h1 {
+  font-family: arial;
+}
+
+ul.hot-drink-list {
+  background-color: $danger-color;
+}
+
+.list {
+  border: thin $dark-color dashed;
+}
+
+.cold-drink-list,
+.hot-drink-list,
+.snack-list {
+  @extend .list;
+}
+
+#hot-drink-special {
+  @include daily-special;
+}
+
+#snack-special {
+  @include daily-special;
+}

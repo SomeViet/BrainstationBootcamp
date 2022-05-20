@@ -1,0 +1,62 @@
+/**
+Variables
+**/
+
+$primary-color: aquamarine;
+$font-stack: Helvetica, sans-serif;
+$nav-bar-font-stack: Times New Roman;
+
+/**
+Mixins
+**/
+@mixin box-properties {
+  border: 1px solid black;
+  background-color: greenyellow;
+  border-radius: 20px;
+}
+
+/**
+Extend
+**/
+
+body {
+  background-color: $primary-color;
+  font: 100% $font-stack;
+}
+
+p {
+  @include box-properties;
+}
+
+div {
+  @include box-properties;
+}
+
+.message-shared {
+  border: 3px solid #ccc;
+  color: red;
+}
+
+.success {
+  @extend .message-shared;
+  border-color: brown;
+}
+
+/**
+Nesting
+**/
+
+nav {
+  ul {
+    font-family: $nav-bar-font-stack;
+  }
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
