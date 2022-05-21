@@ -43,8 +43,7 @@ ul.hot-drink-list {
   background-color: #dc143c;
 }
 
-.list,
-.cold-drink-list,
+.list, .cold-drink-list,
 .hot-drink-list,
 .snack-list {
   border: thin black dashed;
@@ -58,4 +57,4 @@ ul.hot-drink-list {
 #snack-special {
   font-weight: normal;
   font-style: italic;
-} /*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */

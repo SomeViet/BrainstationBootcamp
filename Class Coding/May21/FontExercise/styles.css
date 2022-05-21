@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "Pacifico-Regular";
+  src: url("Pacifico-Regular.ttf") format("ttf");
+}
+
+.test {
+  font-family: "Pacifico-Regular";
+  font-size: 20px;
+}

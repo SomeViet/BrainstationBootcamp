@@ -1,10 +1,6 @@
-/**
-Variables
-**/
+/** Partial Usage **/
 
-$primary-color: aquamarine;
-$font-stack: Helvetica, sans-serif;
-$nav-bar-font-stack: Times New Roman;
+@use "variables";
 
 /**
 Mixins
@@ -20,8 +16,8 @@ Extend
 **/
 
 body {
-  background-color: $primary-color;
-  font: 100% $font-stack;
+  background-color: variables.$primary-color;
+  font: 100% variables.$font-stack;
 }
 
 p {
@@ -48,7 +44,7 @@ Nesting
 
 nav {
   ul {
-    font-family: $nav-bar-font-stack;
+    font-family: variables.$nav-bar-font-stack;
   }
 }
 
@@ -59,4 +55,12 @@ a {
   &:hover {
     text-decoration: underline;
   }
+}
+
+.product {
+  width: 400px;
+}
+
+.product__image {
+  width: 300px;
 }
