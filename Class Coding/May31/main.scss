@@ -1,0 +1,54 @@
+$primary-color: rgb(219, 98, 98);
+$secondary-color: rgb(101, 202, 75);
+$tertiary-color: rgb(100, 182, 230);
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .main-content {
+        font-size: 32px;
+    }
+
+    .left-sidebar {
+    }
+
+    .right-sidebar {
+    }
+}
+
+@media (min-width: 481px) and (max-width: 600px) {
+    .main-content {
+        font-size: 48px;
+    }
+
+    .left-sidebar {
+    }
+
+    .right-sidebar {
+    }
+}
+
+.container {
+    width: 400px;
+    display: flex;
+}
+
+.main-content {
+    background-color: $primary-color;
+    width: 60%;
+    height: 500px;
+}
+
+.left-sidebar {
+    background-color: $secondary-color;
+    width: 20%;
+    height: 500px;
+}
+
+.right-sidebar {
+    background-color: $tertiary-color;
+    width: 20%;
+    height: 500px;
+}
+
+#main-content-id {
+    font-size: 18px;
+}
