@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <script>
+            let colors = [];
+
+            colors.push("Red");
+            colors.push("Blue");
+            colors.push("Green");
+
+            console.log(colors);
+
+            let people_list = [
+                {
+                    name: "Nathan",
+                    age: 42,
+                    location: "Vancouver",
+                    fav_movies: "Top Gun",
+                },
+                {
+                    name: "Ryan",
+                    age: 42,
+                    location: "Vancouver",
+                    fav_movies: "Top Gun",
+                },
+                {
+                    name: "Bob",
+                    age: 42,
+                    location: "Vancouver",
+                    fav_movies: "Top Gun",
+                },
+            ];
+            console.log(people_list);
+
+            let country_list = [
+                {
+                    name: "China",
+                    population: 100000000000000,
+                    language: ["Chinese"],
+                    specialty: "Mass Production",
+                },
+                {
+                    name: "Vietnam",
+                    population: 100000000000,
+                    language: "Vietnamese",
+                    specialty: "Food",
+                },
+                {
+                    name: "America",
+                    population: 22200000000000,
+                    language: "Americanese",
+                    specialty: "Guns",
+                },
+                {
+                    name: "Canada",
+                    population: 1,
+                    language: "Canadaese",
+                    specialty: "We don't exist",
+                },
+                {
+                    name: "Mexico",
+                    population: 5550000000,
+                    language: "Mexicanese",
+                    specialty: ["Tacos"],
+                },
+            ];
+            country_list.push({
+                name: "Russia",
+                population: 0,
+                language: "Russian",
+                specialty: "Espionage",
+            });
+
+            country_list[0].language.push("Mandarin");
+            country_list[4].specialty.push("Tequila");
+
+            console.log(country_list);
+        </script>
+    </body>
+</html>
