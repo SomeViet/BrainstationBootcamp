@@ -25,8 +25,7 @@ div {
   border-radius: 20px;
 }
 
-.message-shared,
-.success {
+.message-shared, .success {
   border: 3px solid #ccc;
   color: red;
 }
@@ -52,13 +51,8 @@ a:hover {
 
 .product {
   width: 400px;
-  position: absolute;
 }
 
 .product__image {
-  background-color: purple;
   width: 300px;
-  position: relative;
-  top: 100px;
-  left: 30px;
-} /*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */

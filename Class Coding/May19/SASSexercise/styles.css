@@ -22,13 +22,12 @@ li {
 .snack-list {
   background-color: lightsalmon;
 }
-
 .snack-list li {
   color: teal;
 }
 
 .cold-drink-list {
-  background-color: aquamarine;
+  background-color: rgb(127, 255, 212);
 }
 
 #cold-drink-special {
@@ -58,5 +57,4 @@ ul.hot-drink-list {
 #snack-special {
   font-weight: normal;
   font-style: italic;
-}
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */

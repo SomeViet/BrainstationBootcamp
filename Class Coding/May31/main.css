@@ -3,39 +3,34 @@
     font-size: 32px;
   }
 }
-
 @media (min-width: 481px) and (max-width: 600px) {
   .main-content {
     font-size: 48px;
   }
 }
-
 .container {
   width: 400px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
 .main-content {
-  background-color: #db6262;
+  background-color: rgb(219, 98, 98);
   width: 60%;
   height: 500px;
 }
 
 .left-sidebar {
-  background-color: #65ca4b;
+  background-color: rgb(101, 202, 75);
   width: 20%;
   height: 500px;
 }
 
 .right-sidebar {
-  background-color: #64b6e6;
+  background-color: rgb(100, 182, 230);
   width: 20%;
   height: 500px;
 }
 
 #main-content-id {
   font-size: 18px;
-}
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
