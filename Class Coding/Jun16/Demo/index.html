@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles.css" />
+        <title>Document</title>
+        <style>
+            #box {
+                width: 1000px;
+                height: 1000px;
+                background: orange;
+                transition: background-color 1s linear;
+            }
+            </style>
+    </head>
+    <body>
+
+        <div id="box"></div>
+
+        <script>
+            function changeColor () {
+                let myBox= document.getElementById("box")
+                myBox.style.backgroundColor = "#" + Math.floor(Math.random()*16777215).toString(16)
+            }
+
+            let myTimer = setInterval(changeColor, 5000)
+        </script>
+
+        <!-- <div id="counter">0</div>
+
+        <script>
+            
+            function countUP () {
+                let counterObject = document.getElementById("counter");
+                let currentNumber = counterObject.innerHTML; //this gives me a string
+                counterObject.innerHTML = +currentNumber + 1
+            }
+            let myTimer = setInterval(countUP, 1000)
+        </script> -->
+
+        <!--
+        <h1 id="primary_heading">Refresh me!</h1>
+        <div class="moo">...giv this div width and height using css</div>
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+
+        <script>
+            let anchor = document.querySelectorAll("a"); //find all the a tags
+            console.log(anchor);
+
+            let colors = ["blue", "green", "yellow"];
+
+            for (let i = 0; i < anchor.length; i++) {
+                let currentATagObject = anchor[i];
+                currentATagObject.style.color = "crimson";
+                currentATagObject.style.backgroundColor = colors[i];
+                currentATagObject.innerHTML = "Link " + (i + 1);
+                console.log();
+            }
+            -->
+        </script>
+    </body>
+</html>
