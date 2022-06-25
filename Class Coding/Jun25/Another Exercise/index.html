@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <script>
+
+            let ages = [10, 20, 30 ,40 ,50]
+            let filterValueElement = document.getElementById ("filterValue")
+            filterValueElement.addEventListener ("keyup", ()=>
+                let filteredAges = ages.filter((value) => {
+                    //return true for items you want to keep
+                    return value > filterValueElement.value
+            })
+
+            console.log(filteredAges)
+
+            // let animals = ["Red Panda", "Dog", "Cat", "Mosquito"];
+
+            // for (let i=1; i< animals.length; i++){
+            //     console.log(animals[i])
+            // }
+
+            // animals.forEach(() => {
+            //     console.log("Hello");
+            // });
+
+            // function showValueOfItem(value) {
+            //     console.log(value);
+            // }
+
+            // function loopOverItems(items, callback) {
+            //     for (let i = 1; i < items.length; i++) {
+            //         callback(items[i]); // How do i show the current item value??
+            //     }
+            // }
+
+            // loopOverItems(animals, (value) => {
+            //     console.log(value);
+            // });
+        </script>
+    </body>
+</html>
