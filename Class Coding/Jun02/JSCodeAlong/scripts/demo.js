@@ -72,11 +72,11 @@ console.log(typeof x); //string
 //{...}
 //1. Signature
 function funName() {
-  //2. Definition
-  console.log("I am in a function");
-  let x = 10;
-  let y = 20;
-  console.log(x + y);
+    //2. Definition
+    console.log("I am in a function");
+    let x = 10;
+    let y = 20;
+    console.log(x + y);
 }
 // 3. Call --> return some value
 // ----> just output the value
@@ -84,19 +84,19 @@ funName();
 
 //Functions without parameter
 function funNameWithoutParam() {
-  //2. Definition
-  console.log("I am in a function without a param");
-  let x = 10;
-  let y = 20;
-  console.log(x + y);
+    //2. Definition
+    console.log("I am in a function without a param");
+    let x = 10;
+    let y = 20;
+    console.log(x + y);
 }
 funNameWithoutParam();
 
 //Functions with parameter
 //Scope - local
 function funNameWithParam(a, b, c, d) {
-  //let
-  console.log("I am in a function with param");
-  console.log(a + b);
+    //let
+    console.log("I am in a function with param");
+    console.log(a + b);
 }
 funNameWithParam(3, 6);
