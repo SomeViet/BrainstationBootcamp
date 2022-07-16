@@ -23,10 +23,10 @@ sayMyName("Kevin", "Tran", outputName)
     --> Line 13: sayMyName("Kevin", "Tran", outputName){
         let fullName = firstName + " " + lastName;
         outputName ("Kevin Tran");
-    }   --> function 
-
-
-    ???
+    }   --> function outputName("Kevin Tran") {
+        let finalString = "Your name is: " + "Kevin Tran";
+        console.log(finalString)
+    }
 */
 
 // 4. sayMyName("Kevin", "Tran", outputName);
@@ -54,7 +54,7 @@ setTimeout(function () {
     */
 
 // 2. Modify the body of the anonymous function passed to setTimeout to call sayMyName instead of console.log after 2 seconds
-setTimeout(sayMyName("Kevin2", "Tran", console.log), 2000);
+setTimeout(sayMyName("Kevin2", "Tran", console.log), 2000); //Wrong, not set-up as anonymous function or variable as function
 
 setTimeout(function () {
     sayMyName("Kevin3", "Tran", console.log);
