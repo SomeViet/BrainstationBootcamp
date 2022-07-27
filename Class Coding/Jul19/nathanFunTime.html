@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+
+        <style>
+            .box {
+                width: 200px;
+                height: 200px;
+                background-color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box" id="first-box"></div>
+        <div class="box"></div>
+        <script>
+            // ~~Object Literal
+            // const Box = {
+            //     width: 200,
+            //     height: 200,
+            //     backgroundColor: "red",
+            //     changeBackgroundColor: function () {
+            //         //change my box background color...
+            //         box.backgroundColor = "green";
+            //     },
+            // };
+
+            const Box = function () {
+                // the variable "this", IS the current instance of this object....
+                this.domElement = document.getElementById("first-box");
+                this.domElement.addEventListener("click", function () {
+                    this.style.backgroundColor = "green";
+                });
+                this.domElement.addEventListener("mouseover", function () {
+                    this.style.opacity = 0.2;
+                });
+            };
+
+            // console.log(box);
+
+            // let box = document.getElementsByClassName("box");
+            // //for loop to apply to all "box" classes
+            // for (let i = 0; i < box.length; i++) {
+            //     box[i].addEventListener("click", function () {
+            //         //box to change color
+            //         box[i].style.backgroundColor = "green";
+            //     });
+            // }
+        </script>
+    </body>
+</html>
